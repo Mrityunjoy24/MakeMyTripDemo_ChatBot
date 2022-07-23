@@ -1,0 +1,37 @@
+{
+  "name": "webhook-boilerplate",
+  "version": "1.0.0",
+  "description": "Simple demo chatbot",
+  "author": "Mrityunjoy Kumar",
+  "email": "mrityunjoykumar824@gmail.com",
+  "license": "Apache-2.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "dialogflow-fulfillment": "github:Quantiphi/dialogflow-fulfillment-builder",
+    "dialogflow-fulfillment-builder": "github:Quantiphi/dialogflow-fulfillment-builder",
+    "express": "^4.16.3",
+    "express-winston": "^4.0.1",
+    "firebase-admin": "^9.4.2",
+    "helmet": "^3.21.2",
+    "mongoose": "^5.11.8",
+    "nodemailer": "^6.4.17",
+    "semver": "^7.3.2",
+    "winston": "^3.0.0"
+  },
+  "keywords": [
+    "webhook framework",
+    "dialogflow webhook",
+    "virtual agent",
+    "boilerplate",
+    "dialogflow boilerplate",
+    "fulfillment service"
+  ],
+  "devDependencies": {}
+}
